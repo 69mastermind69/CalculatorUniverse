@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!-- Internet permission for loading the website -->
     <uses-permission
         android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:label="Calculator Universe"
+        android:label="MASTERMIND"
         android:theme="@android:style/Theme.Material.NoActionBar"
         android:icon="@drawable/app_logo"
         android:roundIcon="@drawable/app_logo"
@@ -21,6 +21,7 @@
 
             <intent-filter>
 
+                <!-- Launcher entry -->
                 <action
                     android:name="android.intent.action.MAIN" />
 
