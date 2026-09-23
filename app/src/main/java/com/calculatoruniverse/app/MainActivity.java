@@ -15,6 +15,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         webView = new WebView(this);
+
         setContentView(webView);
 
         WebSettings settings = webView.getSettings();
@@ -26,20 +27,29 @@ public class MainActivity extends Activity {
         settings.setAllowFileAccess(true);
         settings.setAllowContentAccess(true);
 
-        webView.setWebViewClient(new WebViewClient());
+        webView.setWebViewClient(
+                new WebViewClient()
+        );
 
         webView.loadUrl(
-            "https://cracker-birthday-calculator.onrender.com"
+                "https://cracker-birthday-calculator.onrender.com"
         );
     }
 
     @Override
     public void onBackPressed() {
 
-        if (webView != null && webView.canGoBack()) {
+        if (
+                webView != null
+                && webView.canGoBack()
+        ) {
+
             webView.goBack();
+
         } else {
+
             super.onBackPressed();
+
         }
     }
 }
