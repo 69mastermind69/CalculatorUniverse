@@ -7,151 +7,328 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Dark background -->
-    <path
-        android:fillColor="#050812"
-        android:pathData="
-            M54,4
-            A50,50 0,1 0,54,104
-            A50,50 0,1 0,54,4" />
+    <!-- ═══════════════════════════════════════ -->
+    <!-- DARK LUXURY BACKGROUND -->
+    <!-- ═══════════════════════════════════════ -->
 
-    <!-- Blue outer ring -->
     <path
-        android:fillColor="#168CFF"
+        android:fillColor="#05060D"
+        android:pathData="
+        M54,3
+        A51,51 0,1 0,54,105
+        A51,51 0,1 0,54,3" />
+
+    <!-- Inner glass circle -->
+    <path
+        android:fillColor="#0B1020"
+        android:pathData="
+        M54,10
+        A44,44 0,1 0,54,98
+        A44,44 0,1 0,54,10" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- NEON OUTER RING -->
+    <!-- ═══════════════════════════════════════ -->
+
+    <path
+        android:fillColor="#00E5FF"
         android:fillType="evenOdd"
         android:pathData="
-            M54,7
-            A47,47 0,1 0,54,101
-            A47,47 0,1 0,54,7
-            M54,14
-            A40,40 0,1 1,54,94
-            A40,40 0,1 1,54,14" />
+        M54,5
+        A49,49 0,1 0,54,103
+        A49,49 0,1 0,54,5
 
-    <!-- Pink/red inner glow ring -->
+        M54,9
+        A45,45 0,1 1,54,99
+        A45,45 0,1 1,54,9" />
+
+    <!-- Purple ring -->
     <path
-        android:fillColor="#FF174F"
+        android:fillColor="#7C4DFF"
         android:fillType="evenOdd"
         android:pathData="
-            M54,20
-            A34,34 0,1 0,54,88
-            A34,34 0,1 0,54,20
-            M54,27
-            A27,27 0,1 1,54,81
-            A27,27 0,1 1,54,27" />
+        M54,14
+        A40,40 0,1 0,54,94
+        A40,40 0,1 0,54,14
 
-    <!-- Calculator body -->
+        M54,17
+        A37,37 0,1 1,54,91
+        A37,37 0,1 1,54,17" />
+
+    <!-- Pink inner accent -->
     <path
-        android:fillColor="#101827"
+        android:fillColor="#FF2E93"
+        android:fillType="evenOdd"
         android:pathData="
-            M33,29
-            Q33,25 37,25
-            L71,25
-            Q75,25 75,29
-            L75,78
-            Q75,83 71,83
-            L37,83
-            Q33,83 33,78
-            Z" />
+        M54,20
+        A34,34 0,1 0,54,88
+        A34,34 0,1 0,54,20
 
-    <!-- Top display -->
+        M54,23
+        A31,31 0,1 1,54,85
+        A31,31 0,1 1,54,23" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- FUTURISTIC TOP ORBIT -->
+    <!-- ═══════════════════════════════════════ -->
+
     <path
-        android:fillColor="#168CFF"
+        android:fillColor="#18233D"
         android:pathData="
-            M40,33
-            Q40,31 42,31
-            L66,31
-            Q68,31 68,33
-            L68,45
-            L40,45
-            Z" />
+        M20,39
+        C28,25 42,19 57,20
+        C72,21 84,29 89,40
+        L86,42
+        C80,31 69,25 56,24
+        C43,23 31,29 24,42
+        Z" />
 
-    <!-- Display highlight -->
+    <!-- ═══════════════════════════════════════ -->
+    <!-- MASTERMIND MAIN PLATE -->
+    <!-- ═══════════════════════════════════════ -->
+
     <path
-        android:fillColor="#9EDAFF"
+        android:fillColor="#101729"
         android:pathData="
-            M44,35
-            L61,35
-            Q64,35 64,38
-            L64,40
-            L44,40
-            Z" />
+        M18,43
+        Q18,38 23,38
+        L85,38
+        Q90,38 90,43
+        L90,69
+        Q90,74 85,74
+        L23,74
+        Q18,74 18,69
+        Z" />
 
-    <!-- Button 1 -->
+    <!-- Plate highlight -->
     <path
-        android:fillColor="#FF174F"
+        android:fillColor="#1B2742"
         android:pathData="
-            M41,50
-            L48,50
-            L48,57
-            L41,57
-            Z" />
+        M22,43
+        Q22,41 25,41
+        L83,41
+        Q86,41 86,43
+        L86,46
+        L22,46
+        Z" />
 
-    <!-- Button 2 -->
+    <!-- ═══════════════════════════════════════ -->
+    <!-- MASTERMIND LETTER M -->
+    <!-- ═══════════════════════════════════════ -->
+
     <path
-        android:fillColor="#FFFFFF"
+        android:fillColor="#00E5FF"
         android:pathData="
-            M51,50
-            L58,50
-            L58,57
-            L51,57
-            Z" />
+        M24,49
+        L27,49
+        L30,56
+        L33,49
+        L36,49
+        L36,64
+        L33,64
+        L33,55
+        L30,62
+        L29,62
+        L26,55
+        L26,64
+        L24,64
+        Z" />
 
-    <!-- Button 3 -->
-    <path
-        android:fillColor="#168CFF"
-        android:pathData="
-            M61,50
-            L68,50
-            L68,57
-            L61,57
-            Z" />
-
-    <!-- Button 4 -->
-    <path
-        android:fillColor="#168CFF"
-        android:pathData="
-            M41,60
-            L48,60
-            L48,67
-            L41,67
-            Z" />
-
-    <!-- Button 5 -->
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="
-            M51,60
-            L58,60
-            L58,67
-            L51,67
-            Z" />
-
-    <!-- Button 6 -->
-    <path
-        android:fillColor="#FF174F"
-        android:pathData="
-            M61,60
-            L68,60
-            L68,67
-            L61,67
-            Z" />
-
-    <!-- Bottom bar -->
+    <!-- A -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="
-            M41,70
-            L68,70
-            L68,76
-            L41,76
-            Z" />
+        M38,64
+        L42,49
+        L46,49
+        L50,64
+        L47,64
+        L46,60
+        L41,60
+        L40,64
+        Z
+        M42,57
+        L45,57
+        L43.5,52
+        Z" />
 
-    <!-- Decorative orbit -->
+    <!-- S -->
+    <path
+        android:fillColor="#FF2E93"
+        android:pathData="
+        M53,49
+        L61,49
+        L61,52
+        L56,52
+        Q55,52 55,53
+        Q55,54 57,55
+        L59,56
+        Q62,58 62,61
+        Q62,64 59,64
+        L52,64
+        L52,61
+        L58,61
+        Q59,61 59,60
+        Q59,59 57,58
+        L55,57
+        Q52,56 52,53
+        Q52,50 53,49
+        Z" />
+
+    <!-- T -->
+    <path
+        android:fillColor="#8A6CFF"
+        android:pathData="
+        M64,49
+        L73,49
+        L73,52
+        L70,52
+        L70,64
+        L67,64
+        L67,52
+        L64,52
+        Z" />
+
+    <!-- E -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="
+        M76,49
+        L84,49
+        L84,52
+        L79,52
+        L79,55
+        L83,55
+        L83,58
+        L79,58
+        L79,61
+        L84,61
+        L84,64
+        L76,64
+        Z" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- LOWER MIND BRAND MARK -->
+    <!-- ═══════════════════════════════════════ -->
+
+    <!-- M -->
+    <path
+        android:fillColor="#FF2E93"
+        android:pathData="
+        M34,79
+        L37,79
+        L39,83
+        L41,79
+        L44,79
+        L44,89
+        L41.5,89
+        L41.5,83
+        L39,87
+        L38,87
+        L36,83
+        L36,89
+        L34,89
+        Z" />
+
+    <!-- I -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="
-            M84,31
-            A6,6 0,1 0,84,43
-            A6,6 0,1 0,84,31" />
+        M47,79
+        L50,79
+        L50,89
+        L47,89
+        Z" />
+
+    <!-- N -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="
+        M53,89
+        L53,79
+        L56,79
+        L59,84
+        L59,79
+        L62,79
+        L62,89
+        L59,89
+        L56,84
+        L56,89
+        Z" />
+
+    <!-- D -->
+    <path
+        android:fillColor="#8A6CFF"
+        android:pathData="
+        M65,79
+        L70,79
+        Q74,79 74,84
+        Q74,89 70,89
+        L65,89
+        Z
+        M68,82
+        L68,86
+        L70,86
+        Q71,86 71,84
+        Q71,82 70,82
+        Z" />
+
+    <!-- ═══════════════════════════════════════ -->
+    <!-- NEON PARTICLES -->
+    <!-- ═══════════════════════════════════════ -->
+
+    <!-- Cyan star -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="
+        M17,23
+        L19,28
+        L24,30
+        L19,32
+        L17,37
+        L15,32
+        L10,30
+        L15,28
+        Z" />
+
+    <!-- Pink star -->
+    <path
+        android:fillColor="#FF2E93"
+        android:pathData="
+        M88,25
+        L90,29
+        L94,31
+        L90,33
+        L88,37
+        L86,33
+        L82,31
+        L86,29
+        Z" />
+
+    <!-- Small cyan dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="
+        M82,80
+        A2.5,2.5 0,1 0,82,85
+        A2.5,2.5 0,1 0,82,80" />
+
+    <!-- Small purple dot -->
+    <path
+        android:fillColor="#8A6CFF"
+        android:pathData="
+        M25,77
+        A2,2 0,1 0,25,81
+        A2,2 0,1 0,25,77" />
+
+    <!-- Bottom neon accent -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="
+        M39,94
+        L69,94
+        L69,96
+        L39,96
+        Z" />
 
 </vector>
