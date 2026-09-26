@@ -6,23 +6,23 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Deep dark background -->
+    <!-- DARK BACKGROUND -->
     <path
-        android:fillColor="#05060D"
+        android:fillColor="#03040A"
         android:pathData="
             M54,4
             A50,50 0,1 0,54,104
             A50,50 0,1 0,54,4" />
 
-    <!-- Inner glass -->
+    <!-- INNER GLASS -->
     <path
-        android:fillColor="#0B1020"
+        android:fillColor="#090D1A"
         android:pathData="
-            M54,10
-            A44,44 0,1 0,54,98
-            A44,44 0,1 0,54,10" />
+            M54,9
+            A45,45 0,1 0,54,99
+            A45,45 0,1 0,54,9" />
 
-    <!-- Cyan outer ring -->
+    <!-- CYAN OUTER RING -->
     <path
         android:fillColor="#00E5FF"
         android:fillType="evenOdd"
@@ -34,288 +34,288 @@
             A44,44 0,1 1,54,98
             A44,44 0,1 1,54,10" />
 
-    <!-- Purple ring -->
+    <!-- PURPLE RING -->
     <path
         android:fillColor="#7C4DFF"
         android:fillType="evenOdd"
         android:pathData="
-            M54,15
-            A39,39 0,1 0,54,93
-            A39,39 0,1 0,54,15
-            M54,19
-            A35,35 0,1 1,54,89
-            A35,35 0,1 1,54,19" />
+            M54,14
+            A40,40 0,1 0,54,94
+            A40,40 0,1 0,54,14
+            M54,18
+            A36,36 0,1 1,54,90
+            A36,36 0,1 1,54,18" />
 
-    <!-- Pink inner ring -->
+    <!-- PINK INNER RING -->
     <path
         android:fillColor="#FF2E93"
         android:fillType="evenOdd"
         android:pathData="
-            M54,23
-            A31,31 0,1 0,54,85
-            A31,31 0,1 0,54,23
-            M54,27
-            A27,27 0,1 1,54,81
-            A27,27 0,1 1,54,27" />
+            M54,22
+            A32,32 0,1 0,54,86
+            A32,32 0,1 0,54,22
+            M54,26
+            A28,28 0,1 1,54,82
+            A28,28 0,1 1,54,26" />
 
-    <!-- Main glass panel -->
+    <!-- CENTRAL GLASS PANEL -->
     <path
-        android:fillColor="#101729"
+        android:fillColor="#0D1425"
         android:pathData="
-            M17,40
-            Q17,36 21,36
-            L87,36
-            Q91,36 91,40
-            L91,70
-            Q91,74 87,74
-            L21,74
-            Q17,74 17,70
+            M15,39
+            Q15,34 20,34
+            L88,34
+            Q93,34 93,39
+            L93,70
+            Q93,75 88,75
+            L20,75
+            Q15,75 15,70
             Z" />
 
-    <!-- Panel highlight -->
+    <!-- PANEL TOP LIGHT -->
     <path
-        android:fillColor="#1B2742"
+        android:fillColor="#18243D"
         android:pathData="
-            M21,40
-            Q21,39 23,39
-            L85,39
-            Q87,39 87,40
-            L87,44
-            L21,44
+            M20,38
+            Q20,37 23,37
+            L85,37
+            Q88,37 88,39
+            L88,43
+            L20,43
             Z" />
 
     <!-- M -->
     <path
         android:fillColor="#00E5FF"
         android:pathData="
-            M23,49
-            L27,49
-            L30,56
-            L33,49
-            L37,49
-            L37,64
-            L33.5,64
-            L33.5,55
-            L31,62
-            L29,62
-            L26.5,55
-            L26.5,64
-            L23,64
+            M20,48
+            L24,48
+            L27,56
+            L30,48
+            L34,48
+            L34,64
+            L30.5,64
+            L30.5,55
+            L28,62
+            L26,62
+            L23.5,55
+            L23.5,64
+            L20,64
             Z" />
 
     <!-- A -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="
-            M39,64
-            L43,49
-            L47,49
-            L51,64
-            L47.5,64
-            L46.5,60
-            L42,60
-            L41,64
+            M36,64
+            L40,48
+            L44,48
+            L48,64
+            L44.5,64
+            L43.5,60
+            L39,60
+            L38,64
             Z
-            M43,57
-            L45.5,57
-            L44.25,52
+            M40,57
+            L42.5,57
+            L41.25,52
             Z" />
 
     <!-- S -->
     <path
         android:fillColor="#FF2E93"
         android:pathData="
-            M54,49
-            L62,49
-            L62,52
-            L57,52
-            Q56,52 56,53
-            Q56,54 58,55
-            L60,56
-            Q63,58 63,61
-            Q63,64 60,64
-            L53,64
-            L53,61
-            L59,61
-            Q60,61 60,60
-            Q60,59 58,58
-            L56,57
-            Q53,56 53,53
-            Q53,50 54,49
+            M51,48
+            L59,48
+            L59,51
+            L54,51
+            Q53,51 53,52.5
+            Q53,53.5 55,54.5
+            L57,55.5
+            Q60,57 60,60.5
+            Q60,64 57,64
+            L50,64
+            L50,61
+            L56,61
+            Q57,61 57,60
+            Q57,59 55,58
+            L53,57
+            Q50,56 50,53
+            Q50,49.5 51,48
             Z" />
 
     <!-- T -->
     <path
         android:fillColor="#8A6CFF"
         android:pathData="
-            M65,49
-            L74,49
-            L74,52
-            L71,52
-            L71,64
+            M62,48
+            L71,48
+            L71,51
+            L68,51
             L68,64
-            L68,52
-            L65,52
+            L65,64
+            L65,51
+            L62,51
             Z" />
 
     <!-- E -->
     <path
         android:fillColor="#00E5FF"
         android:pathData="
-            M77,49
-            L85,49
-            L85,52
-            L80,52
-            L80,55
-            L84,55
-            L84,58
-            L80,58
-            L80,61
-            L85,61
-            L85,64
-            L77,64
+            M74,48
+            L83,48
+            L83,51
+            L77,51
+            L77,54
+            L82,54
+            L82,57
+            L77,57
+            L77,61
+            L83,61
+            L83,64
+            L74,64
             Z" />
 
-    <!-- Neon underline -->
+    <!-- NEON UNDERLINE -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="
-            M31,68
-            L77,68
-            L77,70
-            L31,70
+            M28,67
+            L80,67
+            L80,69
+            L28,69
             Z" />
 
-    <!-- Cyan left accent -->
+    <!-- CYAN ACCENT -->
     <path
         android:fillColor="#00E5FF"
         android:pathData="
-            M31,68
-            L43,68
-            L43,70
-            L31,70
+            M28,67
+            L42,67
+            L42,69
+            L28,69
             Z" />
 
-    <!-- Pink right accent -->
+    <!-- PINK ACCENT -->
     <path
         android:fillColor="#FF2E93"
         android:pathData="
-            M65,68
-            L77,68
-            L77,70
-            L65,70
+            M66,67
+            L80,67
+            L80,69
+            L66,69
             Z" />
 
-    <!-- Bottom M -->
+    <!-- M -->
     <path
         android:fillColor="#FF2E93"
         android:pathData="
-            M35,78
-            L38,78
-            L40,83
-            L42,78
-            L45,78
-            L45,89
-            L42.5,89
-            L42.5,83
-            L40,87
-            L39,87
-            L37.5,83
-            L37.5,89
-            L35,89
+            M32,77
+            L35,77
+            L37,83
+            L39,77
+            L42,77
+            L42,89
+            L39.5,89
+            L39.5,82
+            L37,87
+            L36,87
+            L34.5,82
+            L34.5,89
+            L32,89
             Z" />
 
-    <!-- Bottom I -->
+    <!-- I -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="
-            M48,78
-            L51,78
-            L51,89
-            L48,89
+            M46,77
+            L49,77
+            L49,89
+            L46,89
             Z" />
 
-    <!-- Bottom N -->
+    <!-- N -->
     <path
         android:fillColor="#00E5FF"
         android:pathData="
-            M54,89
-            L54,78
-            L57,78
-            L60,84
-            L60,78
-            L63,78
-            L63,89
-            L60,89
-            L57,84
-            L57,89
+            M53,89
+            L53,77
+            L56,77
+            L59,83
+            L59,77
+            L62,77
+            L62,89
+            L59,89
+            L56,84
+            L56,89
             Z" />
 
-    <!-- Bottom D -->
+    <!-- D -->
     <path
         android:fillColor="#8A6CFF"
         android:pathData="
-            M66,78
-            L71,78
-            Q75,78 75,83.5
-            Q75,89 71,89
-            L66,89
+            M65,77
+            L70,77
+            Q75,77 75,83
+            Q75,89 70,89
+            L65,89
             Z
-            M69,81
-            L69,86
-            L71,86
-            Q72,86 72,83.5
-            Q72,81 71,81
+            M68,80
+            L68,86
+            L70,86
+            Q72,86 72,83
+            Q72,80 70,80
             Z" />
 
-    <!-- Top-left sparkle -->
+    <!-- TOP LEFT SPARK -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="
-            M16,18
-            L18,23
-            L23,25
-            L18,27
-            L16,32
-            L14,27
-            L9,25
-            L14,23
+            M16,17
+            L18,22
+            L23,24
+            L18,26
+            L16,31
+            L14,26
+            L9,24
+            L14,22
             Z" />
 
-    <!-- Top-right sparkle -->
+    <!-- TOP RIGHT SPARK -->
     <path
         android:fillColor="#00E5FF"
         android:pathData="
-            M89,19
-            L91,23
-            L95,25
-            L91,27
-            L89,31
-            L87,27
-            L83,25
-            L87,23
+            M91,18
+            L93,22
+            L97,24
+            L93,26
+            L91,30
+            L89,26
+            L85,24
+            L89,22
             Z" />
 
-    <!-- Pink particle -->
+    <!-- BOTTOM PARTICLE -->
     <path
         android:fillColor="#FF2E93"
         android:pathData="
-            M21,82
-            L22,86
-            L26,87
-            L22,89
-            L21,93
-            L20,89
-            L16,87
-            L20,86
+            M20,81
+            L21,85
+            L25,87
+            L21,89
+            L20,93
+            L19,89
+            L15,87
+            L19,85
             Z" />
 
-    <!-- White particle -->
+    <!-- WHITE PARTICLE -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="
-            M83,80
-            A3,3 0,1 0,83,86
-            A3,3 0,1 0,83,80" />
+            M84,80
+            A3,3 0,1 0,84,86
+            A3,3 0,1 0,84,80" />
 
 </vector>
